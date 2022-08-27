@@ -21,6 +21,6 @@ st.dataframe(spacex_data)
 
 
 st.subheader("100 Adet Havalimanının Uzaydan Görüntüleri")
-airport_data = pd.read_csv("airport_desc.csv", encoding = 'latin1')
+airport_data = pd.read_csv("airport_desc.csv")
 st.dataframe(airport_data)
 
