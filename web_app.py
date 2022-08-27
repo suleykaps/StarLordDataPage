@@ -25,3 +25,6 @@ airport_data = pd.read_csv("airport_desc.csv", encoding = 'latin1')
 st.dataframe(airport_data)
 
 
+
+
+st.markdown("powered by @StarLord")
