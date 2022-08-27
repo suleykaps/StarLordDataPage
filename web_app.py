@@ -19,6 +19,8 @@ st.subheader("SpaceX Görevleri (2006-Şimdi)")
 spacex_data = pd.read_csv("spacex_missions.csv")
 st.dataframe(spacex_data)
 
+"""
 st.subheader("100 Adet Havalimanının Uzaydan Görüntüleri")
 airport_data = pd.read_csv("airport_desc.csv", encoding = 'latin1')
 st.dataframe(airport_data)
+"""
